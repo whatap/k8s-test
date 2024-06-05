@@ -1,0 +1,445 @@
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:29:30 pid=12326
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:29:30 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:29:30 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:29:30 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:29:31 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:29:31 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:29:31 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:29:31 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:29:31 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:29:31 [[32mmain[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:30:02 pid=12358
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:30:02 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:30:02 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:30:02 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:03 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:03 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:30:03 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:30:03 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:30:03 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:30:22 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: 223115175 ONAME: caller IP: 192.168.1.35[0m PID: 12358
+20240605 09:30:22 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.124.11.223:6600 pcode=38928 oid=223115175 oname=caller[0m
+20240605 09:30:22 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:30:22 [[32mCountCollectorThread[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:30:22 [[32mAgentBoot[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:22 [[32mAgentBoot[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:23 [[32mAgentBoot[0m][[33mDynamicBootHook.redefine(70)[0m] (A106) Redefine Class : class java.io.FileInputStream+5
+20240605 09:30:23 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m223115175[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8080.14417075740765109587
+	whatap.boot.start=premain
+	java.name=12358@Dongminui-MacBookPro.local
+	java.start=20240605 09:30:02.469
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap
+	whatap.ip=192.168.1.35
+	whatap.oid=223115175
+	whatap.oname=caller
+	whatap.version=2.2.33 20240527
+
+20240605 09:30:23 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:30:23 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:30:24 [[32mSpringApplicationShutdownHook[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:30:25 pid=12369
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:30:25 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:30:25 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:30:25 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:26 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:30:26 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:30:26 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:30:26 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:30:26 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:30:28 [[32mAsyncRunner[0m][[33mHttpcExtCV.<init>(145)[0m] (BCI) httpc sun/net/www/protocol/http/HttpURLConnection
+20240605 09:30:40 [[32mSpringApplicationShutdownHook[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:33:08 pid=12453
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:33:08 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:33:08 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:33:08 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:09 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:09 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:33:09 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:09 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:09 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:33:10 [[32mAsyncRunner[0m][[33mHttpcExtCV.<init>(145)[0m] (BCI) httpc sun/net/www/protocol/http/HttpURLConnection
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:33:12 pid=12456
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:33:12 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:33:12 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:33:12 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:13 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:13 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:33:13 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:13 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:13 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:33:14 [[32mhttp-nio-8887-exec-1[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/apache/catalina/core/ApplicationFilterChain
+20240605 09:33:14 [[32mhttp-nio-8887-exec-1[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #4  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:14 [[32mhttp-nio-8887-exec-1[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:33:14 [[32mAsyncRunner[0m][[33mHttpcExtCV.<init>(145)[0m] (BCI) httpc sun/net/www/protocol/http/HttpURLConnection
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:33:16 pid=12460
+/Users/dongminshin/git/sample/caller/whatap/logs/whatap.log
+
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:33:16 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:33:16 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:33:16 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:17 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:33:17 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:33:17 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:17 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:17 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:33:17 [[32mmain[0m][[33mDbcOpenCV.visitMethod(124)[0m] (BCI) jdbc-con-open @HikariDataSource
+20240605 09:33:17 [[32mmain[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
+20240605 09:33:18 [[32mmain[0m][[33mConPool.regist(25)[0m] [32mregist-pool id=HikariPool class=com.zaxxer.hikari.pool.HikariPool[0m
+20240605 09:33:18 [[32mmain[0m][[33mDbcCloseCV.visitMethod(99)[0m] (BCI) jdbc-con-close com/zaxxer/hikari/pool/ProxyConnection
+20240605 09:33:18 [[32mmain[0m][[33mJDBCStatementASM.transform(104)[0m] (BCI) jdbc-stmt org/h2/jdbc/JdbcStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/apache/catalina/core/ApplicationFilterChain
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #4  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mJDBCPreparedStatementASM.transform(194)[0m] (BCI) jdbc-pstmt org/h2/jdbc/JdbcPreparedStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mPreparedStatementCV.visit(215)[0m] (BCI) jdbc-pstmt-owner org/h2/jdbc/JdbcPreparedStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecuteQuery.<init>(30)[0m] (BCI) jdbc-pstmt-executeQuery()Ljava/sql/ResultSet; for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecuteUpdate.<init>(30)[0m] (BCI) jdbc-pstmt-executeUpdate()I for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecute.<init>(30)[0m] (BCI) jdbc-pstmt-execute()Z for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:33:21 [[32mhttp-nio-8888-exec-1[0m][[33mJDBCResultSetASM.transform(123)[0m] (BCI) jdbc-rs org/h2/jdbc/JdbcResultSet
+20240605 09:33:28 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: 223115175 ONAME: caller IP: 192.168.1.35[0m PID: 12453
+20240605 09:33:28 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.124.11.223:6600 pcode=38928 oid=223115175 oname=caller[0m
+20240605 09:33:28 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:33:28 [[32mAgentBoot[0m][[33mAgentBoot.checkOsgi(450)[0m] (A159) can't find 'whatap' in -Djboss.modules.system.pkgs
+20240605 09:33:28 [[32mCountCollectorThread[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:33:28 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m223115175[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8886.16381945564596463738
+	whatap.error=please check -Djboss.modules.system.pkgs in JBOSS
+	jboss.modules.system.pkgs=com.intellij.rt
+	whatap.boot.start=premain
+	java.name=12453@Dongminui-MacBookPro.local
+	java.start=20240605 09:33:08.366
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap
+	whatap.ip=192.168.1.35
+	whatap.oid=223115175
+	whatap.oname=caller
+	whatap.version=2.2.33 20240527
+
+20240605 09:33:28 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:28 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:32 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: -1902120352 ONAME: callee IP: 192.168.1.35[0m PID: 12456
+20240605 09:33:32 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.124.11.223:6600 pcode=38928 oid=-1902120352 oname=callee[0m
+20240605 09:33:32 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:33:32 [[32mAgentBoot[0m][[33mAgentBoot.checkOsgi(450)[0m] (A159) can't find 'whatap' in -Djboss.modules.system.pkgs
+20240605 09:33:32 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m-1902120352[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8887.3227533934103798452
+	whatap.error=please check -Djboss.modules.system.pkgs in JBOSS
+	jboss.modules.system.pkgs=com.intellij.rt
+	whatap.boot.start=premain
+	java.name=12456@Dongminui-MacBookPro.local
+	java.start=20240605 09:33:12.346
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap
+	whatap.ip=192.168.1.35
+	whatap.oid=-1902120352
+	whatap.oname=callee
+	whatap.version=2.2.33 20240527
+
+20240605 09:33:32 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:32 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:35 [[32mhttp-nio-8887-exec-8[0m][[33mPluginLoader.<init>(40)[0m] (plugin) root=/Users/dongminshin/git/sample/caller/whatap/plugin
+20240605 09:33:35 [[32mCountCollectorThread[0m][[33mResSysCPU.update(109)[0m] (SysCpu) System CPU collected by 'JMX' task
+20240605 09:33:35 [[32mCountCollectorThread[0m][[33mAgentInfo.checkAutoScaleIn(151)[0m] [32mstart shutdown-check: dir=[/Users/dongminshin/git/sample/caller/whatap] file=[whatap_12453.shutdown][0m
+20240605 09:33:35 [[32mCountCollectorThread[0m][[33mPluginLoader.<init>(40)[0m] (plugin) root=/Users/dongminshin/git/sample/caller/whatap/plugin
+20240605 09:33:35 [[32mCountCollectorThread[0m][[33mResSysCPU.update(109)[0m] (SysCpu) System CPU collected by 'JMX' task
+20240605 09:33:35 [[32mCountCollectorThread[0m][[33mAgentInfo.checkAutoScaleIn(151)[0m] [32mstart shutdown-check: dir=[/Users/dongminshin/git/sample/caller/whatap] file=[whatap_12456.shutdown][0m
+20240605 09:33:36 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: -1361442028 ONAME: caller-db IP: 192.168.1.35[0m PID: 12460
+20240605 09:33:36 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.209.172.35:6600 pcode=38928 oid=-1361442028 oname=caller-db[0m
+20240605 09:33:37 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:33:37 [[32mAgentBoot[0m][[33mAgentBoot.checkOsgi(450)[0m] (A159) can't find 'whatap' in -Djboss.modules.system.pkgs
+20240605 09:33:37 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m-1361442028[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8888.11691628827048835990
+	whatap.error=please check -Djboss.modules.system.pkgs in JBOSS
+	jboss.modules.system.pkgs=com.intellij.rt
+	whatap.boot.start=premain
+	java.name=12460@Dongminui-MacBookPro.local
+	java.start=20240605 09:33:16.410
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap
+	whatap.ip=192.168.1.35
+	whatap.oid=-1361442028
+	whatap.oname=caller-db
+	whatap.version=2.2.33 20240527
+
+20240605 09:33:37 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:37 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:33:40 [[32mCountCollectorThread[0m][[33mResSysCPU.update(109)[0m] (SysCpu) System CPU collected by 'JMX' task
+20240605 09:33:40 [[32mCountCollectorThread[0m][[33mAgentInfo.checkAutoScaleIn(151)[0m] [32mstart shutdown-check: dir=[/Users/dongminshin/git/sample/caller/whatap] file=[whatap_12460.shutdown][0m
+20240605 09:33:40 [[32mCountCollectorThread[0m][[33mPluginLoader.<init>(40)[0m] (plugin) root=/Users/dongminshin/git/sample/caller/whatap/plugin
+20240605 09:36:10 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.scanClasses(81)[0m] (UrlNorm) [32mClass Scan tot=8641 real=1585 classes 14ms done. [0m[32mpathParamUrlSet=#0  noParamUrlSet=#0[0m
+20240605 09:36:10 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=FullBuild[32m PathTree=0[0m
+20240605 09:36:15 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.scanClasses(81)[0m] (UrlNorm) [32mClass Scan tot=9029 real=1859 classes 16ms done. [0m[32mpathParamUrlSet=#0  noParamUrlSet=#2[0m
+20240605 09:36:15 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=FullBuild[32m PathTree=0[0m
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:37:52 pid=12806
+/Users/dongminshin/git/sample/caller/whatap2/logs/whatap.log
+
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:37:52 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:37:52 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:37:52 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:37:53 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:37:53 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:37:53 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:37:53 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:37:53 [[32mmain[0m][[33mDbcOpenCV.visitMethod(124)[0m] (BCI) jdbc-con-open @HikariDataSource
+
+WhaTap Java v2.2.33 20240527
+Start 20240605 09:37:53 pid=12810
+/Users/dongminshin/git/sample/caller/whatap2/logs/whatap.log
+
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [spring-boot-3.0] prefix=$$[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [mongodb-4.8] prefix=$$[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [lettuce-6.2] prefix=_wtp_[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [reactor-kafka-1.3] prefix=_wtp_[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [rxjava3] prefix=$$[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [tomcat10] prefix=$$[0m
+20240605 09:37:53 [[32mmain[0m][[33mWeaveMain.load(87)[0m] (Weaving) [32mLoad [undertow-2.3.0] prefix=$$[0m
+20240605 09:37:53 [[32mmain[0m][[33mEncoderCV.visitMethod(66)[0m] (BCI) [32mlogsink intercept logback[0m
+20240605 09:37:53 [[32mLogSenderThread[0m][[33mLogSenderThread.run(34)[0m] [32mlogsink logtracer enabled[0m
+20240605 09:37:54 [[32mmain[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
+20240605 09:37:54 [[32mmain[0m][[33mConPool.regist(25)[0m] [32mregist-pool id=HikariPool class=com.zaxxer.hikari.pool.HikariPool[0m
+20240605 09:37:54 [[32mmain[0m][[33mDbcCloseCV.visitMethod(99)[0m] (BCI) jdbc-con-close com/zaxxer/hikari/pool/ProxyConnection
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.warn
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.error
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:37:54 [[32mbackground-preinit[0m][[33mLogTomcatCV.visitMethod(78)[0m] (BCI) TomcatLog DirectJDKLog.fatal
+20240605 09:37:54 [[32mmain[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/springframework/web/client/RestTemplate
+20240605 09:37:54 [[32mmain[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #31  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:37:54 [[32mmain[0m][[33mAddNewClass.addClasses(85)[0m] (Weaving) [31mfail additional load [whatap/reactive/WtpSubscription, whatap/reactive/ContextLifter] loader=jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:37:54 [[32mmain[0m][[33mSpringExceptionHandlerMV.visitCode(121)[0m] (ASM) exception handler org/springframework/web/servlet/DispatcherServlet.processHandlerException(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/springframework/web/servlet/ModelAndView; ok
+20240605 09:37:55 [[32mmain[0m][[33mJDBCStatementASM.transform(104)[0m] (BCI) jdbc-stmt org/h2/jdbc/JdbcStatement
+20240605 09:38:00 [[32mhttp-nio-8887-exec-1[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/apache/catalina/core/ApplicationFilterChain
+20240605 09:38:00 [[32mhttp-nio-8887-exec-1[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #4  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:38:00 [[32mhttp-nio-8887-exec-1[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:38:00 [[32mAsyncRunner[0m][[33mHttpcExtCV.<init>(145)[0m] (BCI) httpc sun/net/www/protocol/http/HttpURLConnection
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mWeaveMain.weaving(412)[0m] (Weaving) weaving class org/apache/catalina/core/ApplicationFilterChain
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mAddNewClass.addClasses(83)[0m] (Weaving) [32madditional load  #4  by jdk.internal.loader.ClassLoaders$AppClassLoader(498931366)[0m
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.quantile.jar loaded 255267 bytes
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mJDBCPreparedStatementASM.transform(194)[0m] (BCI) jdbc-pstmt org/h2/jdbc/JdbcPreparedStatement
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mPreparedStatementCV.visit(215)[0m] (BCI) jdbc-pstmt-owner org/h2/jdbc/JdbcPreparedStatement
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecuteQuery.<init>(30)[0m] (BCI) jdbc-pstmt-executeQuery()Ljava/sql/ResultSet; for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecuteUpdate.<init>(30)[0m] (BCI) jdbc-pstmt-executeUpdate()I for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mPsExecute.<init>(30)[0m] (BCI) jdbc-pstmt-execute()Z for org/h2/jdbc/JdbcPreparedStatement
+20240605 09:38:00 [[32mhttp-nio-8888-exec-1[0m][[33mJDBCResultSetASM.transform(123)[0m] (BCI) jdbc-rs org/h2/jdbc/JdbcResultSet
+20240605 09:38:12 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: -1361442028 ONAME: caller-db IP: 192.168.1.35[0m PID: 12806
+20240605 09:38:12 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.124.11.223:6600 pcode=38928 oid=-1361442028 oname=caller-db[0m
+20240605 09:38:12 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:38:12 [[32mAgentBoot[0m][[33mAgentBoot.checkOsgi(450)[0m] (A159) can't find 'whatap' in -Djboss.modules.system.pkgs
+20240605 09:38:12 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m-1361442028[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8888.6668170946275157290
+	whatap.error=please check -Djboss.modules.system.pkgs in JBOSS
+	jboss.modules.system.pkgs=com.intellij.rt
+	whatap.boot.start=premain
+	java.name=12806@Dongminui-MacBookPro.local
+	java.start=20240605 09:37:52.189
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap2
+	whatap.ip=192.168.1.35
+	whatap.oid=-1361442028
+	whatap.oname=caller-db
+	whatap.version=2.2.33 20240527
+
+20240605 09:38:12 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:38:12 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:38:13 [[32mTcpSession[0m][[33mSecurityMaster.decideAgentOnameOid(104)[0m] [31mOID: -1902120352 ONAME: callee IP: 192.168.1.35[0m PID: 12810
+20240605 09:38:13 [[32mTcpSession[0m][[33mTcpSession.open(147)[0m] (TcpOpen) [32mThe WhaTap Connection is open: 13.124.11.223:6600 pcode=38928 oid=-1902120352 oname=callee[0m
+20240605 09:38:13 [[32mAgentBoot[0m][[33mAgentBoot.run(165)[0m] (AgentBoot) Counter collector start
+20240605 09:38:13 [[32mAgentBoot[0m][[33mAgentBoot.checkOsgi(450)[0m] (A159) can't find 'whatap' in -Djboss.modules.system.pkgs
+20240605 09:38:13 [[32mAgentBoot[0m][[33mAgentBoot.run(240)[0m] pcode=[32m38928[0m,oid=[32m-1902120352[0m,okind=[32m0[0m,onode=[32m0[0m, id=2 (AGENT_BOOT_ENV) , request=0, response=0
+	java.version=17.0.11
+	java.vendor=Azul Systems, Inc.
+	java.home=/Users/dongminshin/Library/Java/JavaVirtualMachines/azul-17.0.11/Contents/Home
+	os.name=Mac OS X
+	os.arch=aarch64
+	file.encoding=UTF-8
+	user.country=KR
+	user.timezone=Asia/Seoul
+	user.language=ko
+	user.home=/Users/dongminshin
+	user.dir=/Users/dongminshin/git/sample
+	catalina.base=/private/var/folders/bz/drb6j3kx5x30ntd9whlktt4m0000gn/T/tomcat.8887.6524582359879318118
+	whatap.error=please check -Djboss.modules.system.pkgs in JBOSS
+	jboss.modules.system.pkgs=com.intellij.rt
+	whatap.boot.start=premain
+	java.name=12810@Dongminui-MacBookPro.local
+	java.start=20240605 09:37:53.134
+	whatap.home=/Users/dongminshin/git/sample/caller/whatap2
+	whatap.ip=192.168.1.35
+	whatap.oid=-1902120352
+	whatap.oname=callee
+	whatap.version=2.2.33 20240527
+
+20240605 09:38:13 [[32mAgentBoot[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:38:13 [[32mAgentBoot[0m][[33mHttpcURLNormBuilder.build(97)[0m] (HttpcUrlNorm) [32mPathTree build done. [0mBuildBy=Start[32m PathTree=0[0m
+20240605 09:38:14 [[32mhttp-nio-8887-exec-6[0m][[33mPluginLoader.<init>(40)[0m] (plugin) root=/Users/dongminshin/git/sample/caller/whatap2/plugin
+20240605 09:38:14 [[32mhttp-nio-8888-exec-3[0m][[33mPluginLoader.<init>(40)[0m] (plugin) root=/Users/dongminshin/git/sample/caller/whatap2/plugin
+20240605 09:38:15 [[32mCountCollectorThread[0m][[33mResSysCPU.update(109)[0m] (SysCpu) System CPU collected by 'JMX' task
+20240605 09:38:15 [[32mCountCollectorThread[0m][[33mAgentInfo.checkAutoScaleIn(151)[0m] [32mstart shutdown-check: dir=[/Users/dongminshin/git/sample/caller/whatap2] file=[whatap_12806.shutdown][0m
+20240605 09:38:15 [[32mCountCollectorThread[0m][[33mResSysCPU.update(109)[0m] (SysCpu) System CPU collected by 'JMX' task
+20240605 09:38:15 [[32mCountCollectorThread[0m][[33mAgentInfo.checkAutoScaleIn(151)[0m] [32mstart shutdown-check: dir=[/Users/dongminshin/git/sample/caller/whatap2] file=[whatap_12810.shutdown][0m
+20240605 09:38:25 [[32mCountCollectorThread[0m][[33mCountCollector.warning(187)[0m] [+] id=[31mWARNING[0m wait=[31m0[0m q1-size=0 last-recvtime=[31m9076[0m localport=[32m62301[0m pid=[32m12810[0m
+20240605 09:40:55 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.scanClasses(81)[0m] (UrlNorm) [32mClass Scan tot=8892 real=1746 classes 23ms done. [0m[32mpathParamUrlSet=#0  noParamUrlSet=#2[0m
+20240605 09:40:55 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=FullBuild[32m PathTree=0[0m
+20240605 09:40:55 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.scanClasses(81)[0m] (UrlNorm) [32mClass Scan tot=15636 real=7257 classes 50ms done. [0m[32mpathParamUrlSet=#0  noParamUrlSet=#1[0m
+20240605 09:40:55 [[32mAsyncRunner[0m][[33mUrlNormPathTreeBuilder.build(167)[0m] (UrlNorm) [32mService PathTree done. [0mBuildBy=FullBuild[32m PathTree=0[0m
+20240605 09:46:39 [[32mSpringApplicationShutdownHook[0m][[33mLoaderManager.deploy(180)[0m] (InnerJar) whatap.tracer.sql.jar loaded 31649 bytes
