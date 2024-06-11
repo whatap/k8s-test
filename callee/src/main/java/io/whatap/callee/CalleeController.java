@@ -27,4 +27,19 @@ public class CalleeController {
         String result = calleeService.calleeCreateLog();
         return ResponseEntity.ok(result);
     }
+
+    @GetMapping("/calculate/all")
+    public ResponseEntity<?> calculateAll() {
+        calleeService.calculateAll();
+        return ResponseEntity.ok().build();
+    }
+
+    /*
+        postgresql 에서만 작동함
+     */
+    @GetMapping("/db/postgresql/sleep")
+    public ResponseEntity<?> sleepQuery() {
+        String result = calleeService.calleeSleepDb();
+        return ResponseEntity.ok(result);
+    }
 }

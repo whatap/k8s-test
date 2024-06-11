@@ -1,0 +1,26 @@
+FROM maven:3-eclipse-temurin-17 as build
+ENV HOME=/usr/app
+ENV PROJECT=$HOME/without-tomcat-boot
+RUN mkdir -p $HOME
+WORKDIR $PROJECT
+
+ADD without-tomcat-boot/pom.xml $PROJECT/pom.xml
+
+RUN mvn verify --fail-never
+ADD without-tomcat-boot $PROJECT
+RUN mvn -DskipTests install
+RUN mvn -DskipTests package
+
+FROM tomcat:jre17
+COPY --from=build /usr/app/without-tomcat-boot/target/without-tomcat-boot-0.0.1.war /usr/local/tomcat/webapps/ROOT.war
+
+RUN mkdir -p /whatap
+COPY --from=whatap/kube_mon /data/agent/micro/whatap.agent.kube.jar /whatap
+
+ENV WHATAP_HOME="/whatap"
+ENV WHATAP_JAR="${WHATAP_HOME}/whatap.agent.kube.jar"
+ENV JAVA_OPTS="${JAVA_OPTS} -javaagent:${WHATAP_JAR}"
+CMD ["catalina.sh", "run"]
+
+
+
