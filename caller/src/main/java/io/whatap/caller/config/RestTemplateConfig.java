@@ -1,4 +1,4 @@
-package io.whatap.caller;
+package io.whatap.caller.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
