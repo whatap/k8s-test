@@ -15,13 +15,13 @@
       <!-- 버튼 그룹 -->
       <div class="btn-group" role="group" aria-label="Basic example">
         <!-- 버튼 1 -->
-        <button type="button" class="btn btn-primary">헬스 체크</button>
+        <a th:href="@{/health}" class="btn btn-primary">헬스 체크</a>
         <!-- 버튼 2 -->
-        <button type="button" class="btn btn-secondary">로그 생성</button>
+        <a th:href="@{/log}" class="btn btn-secondary">로그 생성</a>
         <!-- 버튼 3 -->
-        <button type="button" class="btn btn-success">DB 마비</button>
+        <a th:href="@{/calculate/all}" class="btn btn-success">DB 마비</a>
         <!-- 버튼 4 -->
-        <button type="button" class="btn btn-danger">CPU 부하</button>
+        <a th:href="@{/db/postgresql/sleep}" class="btn btn-danger">CPU 부하</a>
       </div>
     </div>
   </div>

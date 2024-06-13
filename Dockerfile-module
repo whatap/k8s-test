@@ -63,5 +63,5 @@ COPY --from=whatap/kube_mon /data/agent/micro/whatap.agent.kube.jar /whatap
 FROM packaging-$MODULE as final
 ARG MODULE
 ENV ENV_MODULE $MODULE
-RUN echo $ENV_MODULE
-CMD java -javaagent:/whatap/whatap.agent.kube.jar -Dwhatap.micro.enabled=true --add-opens=java.base/java.lang=ALL-UNNAMED -jar /app/$ENV_MODULE-0.0.1.jar
+ENV JAVA_OPTION ""
+CMD java $JAVA_OPTION -javaagent:/whatap/whatap.agent.kube.jar -Dwhatap.micro.enabled=true --add-opens=java.base/java.lang=ALL-UNNAMED -jar /app/$ENV_MODULE-0.0.1.jar
