@@ -6,28 +6,33 @@ RUN mkdir -p $HOME
 WORKDIR $HOME
 
 ADD pom.xml $HOME
+ADD common/pom.xml $HOME/common/pom.xml
 ADD oom/pom.xml $HOME/oom/pom.xml
 ADD caller/pom.xml $HOME/caller/pom.xml
 ADD callee/pom.xml $HOME/callee/pom.xml
 ADD callee-with-db/pom.xml $HOME/callee-with-db/pom.xml
 
-RUN mvn -pl oom verify --fail-never
+RUN #mvn -pl common verify --fail-never
+ADD common $HOME/common
+RUN #mvn -DskipTests -pl common install
+
+RUN #mvn -pl oom verify --fail-never
 ADD oom $HOME/oom
-RUN mvn -DskipTests -pl oom install
+RUN #mvn -DskipTests -pl oom install
 
-RUN mvn -pl caller verify --fail-never
+RUN #mvn -pl caller verify --fail-never
 ADD caller $HOME/caller
-RUN mvn -DskipTests -pl caller install
+RUN #mvn -DskipTests -pl caller install
 
-RUN mvn -pl callee-with-db verify --fail-never
+RUN #mvn -pl callee-with-db verify --fail-never
 ADD callee-with-db $HOME/callee-with-db
-RUN mvn -DskipTests -pl callee-with-db install
+RUN #mvn -DskipTests -pl callee-with-db install
 
-RUN mvn -pl callee verify --fail-never
+RUN #mvn -pl callee verify --fail-never
 ADD callee $HOME/callee
-RUN mvn -DskipTests -pl callee install
+RUN #mvn -DskipTests -pl callee install
 
-RUN mvn -DskipTests -pl oom,callee,caller,callee-with-db package
+RUN mvn -DskipTests -pl common,oom,callee,caller,callee-with-db package
 
 FROM openjdk:17-jdk as packaging-caller
 COPY --from=build /usr/app/caller/target/caller-0.0.1.jar /app/caller-0.0.1.jar

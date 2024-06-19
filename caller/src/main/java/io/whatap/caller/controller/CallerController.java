@@ -1,5 +1,6 @@
 package io.whatap.caller.controller;
 
+import io.whatap.common.util.RandomUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,15 +20,25 @@ public class CallerController {
     @Value("${callee.url}")
     private String calleeUrl;
 
-    @GetMapping("/call")
-    public ResponseEntity<?> call() {
+    @GetMapping("/random")
+    public ResponseEntity<?> random() throws InterruptedException {
+        Thread.sleep(RandomUtils.randomManipulateBigNum(100, 20000));
         String result = restTemplate.getForObject(calleeUrl + "/callee/health", String.class);
-        log.info("caller call, time={}, result={}", System.currentTimeMillis(), result);
+        log.info("caller call health, time={}, result={}", System.currentTimeMillis(), result);
+        return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/health")
+    public ResponseEntity<?> call() throws InterruptedException {
+        Thread.sleep(RandomUtils.randomManipulateBigNum(100, 5000));
+        String result = restTemplate.getForObject(calleeUrl + "/callee/health", String.class);
+        log.info("caller call health, time={}, result={}", System.currentTimeMillis(), result);
         return ResponseEntity.ok().build();
     }
 
     @GetMapping("/log")
-    public ResponseEntity<?> log() {
+    public ResponseEntity<?> log() throws InterruptedException {
+        Thread.sleep(RandomUtils.randomManipulateBigNum(100, 5000));
         String result = restTemplate.postForObject(calleeUrl + "/callee/log", null, String.class);
         log.info("caller call log create, time={}, result={}", System.currentTimeMillis(), result);
         return ResponseEntity.ok().build();

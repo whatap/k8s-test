@@ -1,5 +1,6 @@
 package io.whatap.callee;
 
+import io.whatap.common.util.RandomUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -33,7 +34,7 @@ public class CalleeService {
     }
 
     public void busy() {
-        long end = System.currentTimeMillis() + randomManipulateBigNum(1000, 30000);
+        long end = System.currentTimeMillis() + RandomUtils.randomManipulateBigNum(1000, 30000);
         while (System.currentTimeMillis() < end) {
             // 바쁜 대기 루프 - 소수 계산
             for (int i = 2; i < 20000; i++) {
@@ -50,16 +51,5 @@ public class CalleeService {
         return true;
     }
 
-    public int randomManipulateBigNum(int min, int max) {
-        Random random = new Random();
-        double randomDouble = random.nextDouble();
-        double skewedDouble = Math.pow(randomDouble, 0.5);  // You can experiment with this value
-        int skewedRandomNumber = min + (int)((max - min + 1) * skewedDouble);
-        if (skewedRandomNumber > max) {
-            skewedRandomNumber = max;
-        } else if (skewedRandomNumber < min) {
-            skewedRandomNumber = min;
-        }
-        return skewedRandomNumber;
-    }
+
 }
