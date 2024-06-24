@@ -138,3 +138,8 @@ div {
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  font-size: 16px;
+  margin-top: auto;
+}
