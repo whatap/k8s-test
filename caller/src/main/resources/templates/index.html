@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>실험실</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
   </head>
   <body>
     <div class="container" id="test-container">
@@ -21,10 +21,10 @@
           <a th:href="@{/log}">로그 생성</a>
         </div>
         <div class="test-button slow-db">
-          <a th:href="@{/calculate/all}">DB 느리게</a>
+          <a th:href="@{/db/postgresql/sleep}">DB 느리게</a>
         </div>
         <div class="test-button load-cpu">
-          <a th:href="@{/db/postgresql/sleep}">CPU 부하 상승</a>
+          <a th:href="@{/calculate/all}">CPU 부하 상승</a>
         </div>
       </div>
       <div class="desc-box hide">
@@ -57,6 +57,6 @@
       </div>
       <div class="footer">©2024. WhaTap Labs Inc. all rights reserved.</div>
     </div>
-    <script src="js/script.js"></script>
+    <script th:src="@{/js/script.js}"></script>
   </body>
 </html>
