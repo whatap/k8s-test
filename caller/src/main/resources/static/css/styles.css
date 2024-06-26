@@ -72,6 +72,10 @@ div {
   cursor: pointer;
   z-index: 1;
   box-shadow: 2px 4px 0 black; /* 상단 그림자 */
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .test-button::before {
