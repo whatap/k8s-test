@@ -1,3 +1,0 @@
-#!/bin/bash
-version=${1}
-docker build --platform=linux/amd64,linux/arm64 --build-arg MODULE=callee-with-db -t workirostub/demo:callee-with-db-${version} -f Dockerfile-module . && docker push workirostub/demo:callee-with-db-${version} && docker build --platform=linux/amd64,linux/arm64 --build-arg MODULE=callee -t workirostub/demo:callee-${version} -f Dockerfile-module . && docker push workirostub/demo:callee-${version} && docker build --platform=linux/amd64,linux/arm64 --build-arg MODULE=caller -t workirostub/demo:caller-${version} -f Dockerfile-module . && docker push workirostub/demo:caller-${version} && docker build --platform=linux/amd64,linux/arm64 --build-arg MODULE=oom -t workirostub/demo:oom-1 -f Dockerfile-module . && docker push workirostub/demo:oom-1

@@ -1,6 +1,5 @@
 package io.whatap.calleewithdb;
 
-import io.whatap.common.util.RandomUtils;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Service;

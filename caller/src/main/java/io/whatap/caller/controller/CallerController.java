@@ -1,6 +1,6 @@
 package io.whatap.caller.controller;
 
-import io.whatap.common.util.RandomUtils;
+import io.whatap.caller.RandomUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

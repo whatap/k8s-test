@@ -1,0 +1,21 @@
+dn: dc=springframework,dc=org
+objectclass: top
+objectclass: domain
+dc: springframework
+
+dn: ou=employee,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: employee
+
+dn: uid=dev-abby,ou=employee,dc=springframework,dc=org
+objectclass: inetOrgPerson
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+uid: dev-abby
+sn: Abby
+cn: Dev Abby
+userPassword: {R/m7PAH2E/0MQuw+ktS77ItkG/FetsAJ6EI/gBBat5I=}9ba75e15961033b0d55c845a039f5bd983a7e70d22a75ba924578284ad7d5d475e1e4e018e6a55b0e339709f765cab19336b82ff60c8aa0190acd2c7eeccbf97
+
+
