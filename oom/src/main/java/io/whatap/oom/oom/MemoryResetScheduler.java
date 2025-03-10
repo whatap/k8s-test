@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MemoryResetScheduler {
     private final OutOfMemoryExecutor outOfMemoryExecutor;
-    @Scheduled(cron = "${app.reset.cron}")
+    @Scheduled(cron = "${app.memory.reset.cron}")
     public void resetMemory() {
         outOfMemoryExecutor.reset();
     }
