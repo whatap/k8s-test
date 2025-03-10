@@ -1,4 +1,4 @@
-package io.whatap.oom;
+package io.whatap.oom.repo;
 
 import java.util.List;
 

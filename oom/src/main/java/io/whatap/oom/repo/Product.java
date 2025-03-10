@@ -1,4 +1,4 @@
-package io.whatap.oom;
+package io.whatap.oom.repo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

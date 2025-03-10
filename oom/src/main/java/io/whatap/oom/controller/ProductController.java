@@ -1,5 +1,8 @@
-package io.whatap.oom;
+package io.whatap.oom.controller;
 
+import io.whatap.oom.repo.Product;
+import io.whatap.oom.service.ProductService;
+import io.whatap.oom.dto.ProductStat;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

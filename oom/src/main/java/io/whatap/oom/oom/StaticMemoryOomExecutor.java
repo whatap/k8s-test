@@ -1,13 +1,18 @@
-package io.whatap.oom;
+package io.whatap.oom.oom;
 
+import jakarta.annotation.PostConstruct;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
+@ConditionalOnMissingBean(LocalMemoryOomExecutor.class)
 @Component
-public class OomExecutor {
+public class StaticMemoryOomExecutor implements OutOfMemoryExecutor {
     @Value("${app.memory.limit}")
     private Integer limitMemory;
 
@@ -16,6 +21,12 @@ public class OomExecutor {
 
     private static final List<byte[]> memory = new ArrayList<>();
 
+    @PostConstruct
+    public void init() {
+        log.info("Static Memory OOM executor initialized");
+    }
+
+    @Override
     public void execute() {
         if (limitMemory != null && limitMemory > 0 && limitMemory >= memory.size() * increaseMemory) {
             increaseMemory();
@@ -25,6 +36,7 @@ public class OomExecutor {
         }
     }
 
+    @Override
     public void reset() {
         memory.clear();
     }

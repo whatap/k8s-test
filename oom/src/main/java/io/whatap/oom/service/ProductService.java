@@ -1,5 +1,11 @@
-package io.whatap.oom;
+package io.whatap.oom.service;
 
+import io.whatap.oom.init.ProductInitializer;
+import io.whatap.oom.dto.ProductStat;
+import io.whatap.oom.oom.OutOfMemoryExecutor;
+import io.whatap.oom.oom.StaticMemoryOomExecutor;
+import io.whatap.oom.repo.Product;
+import io.whatap.oom.repo.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -8,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 public class ProductService {
-    private final OomExecutor oomExecutor;
+    private final OutOfMemoryExecutor outOfMemoryExecutor;
     private final ProductRepository productRepository;
 
     public Product get(Long id) {
@@ -27,7 +33,7 @@ public class ProductService {
      * oom 내는 서비스 로직
      */
     public List<ProductStat> statistics() {
-        oomExecutor.execute();
+        outOfMemoryExecutor.execute();
         return productRepository.findAll().stream()
                 .map(ProductStat::new)
                 .toList();

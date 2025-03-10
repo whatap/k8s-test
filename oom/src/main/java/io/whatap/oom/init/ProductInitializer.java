@@ -1,5 +1,7 @@
-package io.whatap.oom;
+package io.whatap.oom.init;
 
+import io.whatap.oom.repo.Product;
+import io.whatap.oom.repo.ProductRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package io.whatap.oom;
+package io.whatap.oom.oom;
 
 
 import org.slf4j.Logger;

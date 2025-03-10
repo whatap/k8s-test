@@ -1,5 +1,6 @@
-package io.whatap.oom;
+package io.whatap.oom.dto;
 
+import io.whatap.oom.repo.Product;
 import lombok.Data;
 
 @Data

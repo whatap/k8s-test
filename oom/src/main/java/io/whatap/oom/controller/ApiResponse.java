@@ -1,4 +1,4 @@
-package io.whatap.oom;
+package io.whatap.oom.controller;
 
 import lombok.Data;
 
