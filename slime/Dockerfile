@@ -1,5 +1,5 @@
 # The base image
-FROM openjdk:17-alpine AS builder
+FROM openjdk:17 AS builder
 
 # Set the working directory
 WORKDIR /workspace/app
@@ -19,15 +19,23 @@ COPY src src
 RUN ./mvnw install -DskipTests
 
 # This will create a smaller final image
-FROM openjdk:17-alpine
+FROM openjdk:17
 
 # Arguments
 WORKDIR /workspace/app
+
 COPY --from=builder /workspace/app/target/slime-0.0.1.jar /app.jar
 
-RUN mkdir -p /whatap
-COPY --from=whatap/kube_mon /data/agent/micro/whatap.agent.kube.jar /whatap
+RUN wget "https://api.whatap.io/agent/whatap.agent.java.tar.gz" &&  \
+    tar -zxvf whatap.agent.java.tar.gz && \
+    rm -f whatap.agent.java.tar.gz
+
+RUN cd whatap &&  \
+    AGENT=$(find . -maxdepth 1 -type f -name "whatap.agent-*.jar") && \
+    echo "Found agent: $AGENT" && \
+    java -cp ${AGENT} whatap.agent.setup.Rename -from ${AGENT} -to whatap.agent.kube.jar
+
 COPY ./whatap.conf /whatap/
 
 # Run the application
-ENTRYPOINT ["java","-javaagent:/whatap/whatap.agent.kube.jar", "--add-opens=java.base/java.lang=ALL-UNNAMED","-Dwhatap.micro.enabled=true","-jar","/app.jar"]
+ENTRYPOINT ["java","-javaagent:/workspace/app/whatap/whatap.agent.kube.jar", "--add-opens=java.base/java.lang=ALL-UNNAMED","-Dwhatap.micro.enabled=true","-jar","/app.jar"]
